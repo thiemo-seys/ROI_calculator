@@ -1,0 +1,6 @@
+real_estate:
+  name: "Appartement 1 BR"
+  price: 100_000
+  appreciation_rate: 0.03
+  gross_rental_yield: 0.04 # gross_rent / price
+  cost_rate: 0.02 # taxes + maintenance
