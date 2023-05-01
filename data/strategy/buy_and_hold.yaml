@@ -1,0 +1,22 @@
+strategy:
+  name: "Buy and Hold"
+  description: "This strategy buys assets in cash and holds them forever.
+  Reinvesting the income in new assets"
+
+  setup:
+    tactic:
+        action: "buy",
+        asset: "real_estate",
+        # Spend as much as possible on real estate
+        condition:
+            amount: "all"
+            asset: "cash"
+
+
+  ongoing:
+    tactic:
+      action: "buy",
+      asset: "real_estate",
+      condition: ""
+
+
